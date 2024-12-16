@@ -8,13 +8,16 @@ DOM :- DOM is a nothing it is just like a tree structured (elements, tags) which
 Document Object Model - DOM
 React provide a power which is called JSX. it means we run our html elements through the Javascript. and JSX also look like HTML. 
 In react Js  we create our own tags. like <App>
+IN reactjs we write html inside the javascript.
 Note :- Browser main Dom  render the HTML's page (using root.render) 
+At the time of creating components in react we use .JSX(extension)
+
 */
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode> 
     <App />
   </React.StrictMode>
 );
